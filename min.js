@@ -173,7 +173,8 @@
         E[0] = S + i + k + F + e + W + "</div>" + l + m + L + P + T + I + N + H + b + y + w + x + $ + A, E[1] = S + i + k + F + e + W + "</div>" + l + m + L + P + T + I + N + H + b + y + w + x + $ + A, E[2] = S + e + F + i + k + W + "</div>" + l + m + L + P + T + I + N + H + b + y + w + x + $ + A, E[3] = S + i + k + F + e + W + "</div>" + l + m + L + P + T + I + N + H + b + y + w + x + $ + A, E[4] = S + w + x + $ + k + W + F + "</div><div class='ccm-flex-b'>" + i + "<div class='ccm-info-wrapper'>" + e + m + "</div></div>" + l + L + P + T + I + N + H + b + y + A, E[5] = S + w + x + $ + k + W + F + "</div>" + i + e + m + l + L + P + T + I + N + H + b + y + A, E[6] = S + w + x + $ + k + W + F + "</div>" + i + e + l + m + L + P + T + I + N + H + b + y + A;
         let O = '<div class="ccm-info-child"><div>LABEL</div><span>DATA</span></div>';
         E[7] = S + i + k + F + e + "<div class='ccm-info'>" + f.replace(":", "") + v.replace(":", "") + h(O) + "</div>" + m + "<div class='ccm-sections-wrapper'>" + L + P + "</div>" + T + I + N + H + b + y + w + x + $ + A, E[8] = S + "<div class='ccm-flex-b'>" + i + k + "<div class='ccm-info-wrapper'><div class='ccm-info'>" + f.replace(":", "") + v.replace(":", "") + h(O) + "</div>" + F + "</div></div>" + e + m + "<div class='ccm-sections-wrapper'>" + L + P + "</div>" + T + I + N + H + b + y + w + x + $ + A;
-        let D = ""
+        let D = "";
+        u.userInfo.noBranding || (D = `<div class='ccm-credit ccm-hide-on-print' style='display:none'>Created using <a href='https://www.recipesgenerator.com?utm_source=${location.href}&utm_campaign=card-credit' target='_blank'>The Recipes Generator</a></div>`);
         if (t.innerHTML = "<div class='ccm-wrapper'>" + E[n - 1] + D + "</div>", function() {
                 let i = a.settings;
                 var e;
