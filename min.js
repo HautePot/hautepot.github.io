@@ -174,7 +174,7 @@
         let O = '<div class="ccm-info-child"><div>LABEL</div><span>DATA</span></div>';
         E[7] = S + i + k + F + e + "<div class='ccm-info'>" + f.replace(":", "") + v.replace(":", "") + h(O) + "</div>" + m + "<div class='ccm-sections-wrapper'>" + L + P + "</div>" + T + I + N + H + b + y + w + x + $ + A, E[8] = S + "<div class='ccm-flex-b'>" + i + k + "<div class='ccm-info-wrapper'><div class='ccm-info'>" + f.replace(":", "") + v.replace(":", "") + h(O) + "</div>" + F + "</div></div>" + e + m + "<div class='ccm-sections-wrapper'>" + L + P + "</div>" + T + I + N + H + b + y + w + x + $ + A;
         let D = "";
-        u.userInfo.noBranding && (D = `<div class='ccm-credit ccm-hide-on-print' style='display:none'>Created using <a href='https://www.recipesgenerator.com?utm_source=${location.href}&utm_campaign=card-credit' target='_blank'>The Recipes Generator</a></div>`);
+        u.userInfo.pricing || (D = `<div class='ccm-credit ccm-hide-on-print' style='display:none'>Created using <a href='https://www.recipesgenerator.com?utm_source=${location.href}&utm_campaign=card-credit' target='_blank'>The Recipes Generator</a></div>`);
         if (t.innerHTML = "<div class='ccm-wrapper'>" + E[n - 1] + "</div>", function() {
                 let i = a.settings;
                 var e;
