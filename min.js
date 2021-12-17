@@ -44,7 +44,7 @@
                 var n = "";
                 let t = a.videoUrl;
                 var lastSegment = t.split("/").pop();
-                n = t ? `<div style='height: 0px; left: 0px; overflow: hidden; padding-bottom: 56.3%; position: relative; width: 100%; margin-bottom: 20px;"><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"allowfullscreen="" class="BLOG_video_class" frameborder="0" height="266" src="https://www.youtube.com/embed/${lastSegment}?autoplay=1&mute=1" style="height: 100%; left: 0px; min-width: 100%; position: absolute; top: 0px; width: 100%; width: 1px;"width="320" youtube-src-id=${lastSegment}></iframe></div>` : ""
+                n = t ? `<div style="height: 0px; left: 0px; overflow: hidden; padding-bottom: 56.3%; position: relative; width: 100%; margin-bottom: 20px;"><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"allowfullscreen="" class="BLOG_video_class" frameborder="0" height="266" src="https://www.youtube.com/embed/${lastSegment}?autoplay=1&mute=1" style="height: 100%; left: 0px; min-width: 100%; position: absolute; top: 0px; width: 100%; width: 1px;"width="320" youtube-src-id=${lastSegment}></iframe></div>` : ""
                 console.log(n);
                 return n
             }(),
