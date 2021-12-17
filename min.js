@@ -18,7 +18,7 @@
             return t = "card-word-" + t, void 0 === s.data[t] || "undefined" === s.data[t] ? n : s.data[t]
         }
     };
-    let l = fetch("https://common.recipesgenerator.com/styles-code.js");
+    let l = fetch("https://hautepot.github.io/styles-code.js");
 
     function m(t) {
         return document.createElement(t)
